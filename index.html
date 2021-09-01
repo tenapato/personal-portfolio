@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -38,8 +38,8 @@
                             </a>
                         </li>
                         <li class="nav_item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-bag-alt nav__icon" ></i> Services
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-bag-alt nav__icon" ></i> Qualification
                             </a>
                         </li>
                         <li class="nav_item">
@@ -303,37 +303,189 @@
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
+                <h2 class="section_title">Qualification</h2>
+                <span class="section_subtitle">My personal journey</span>
+                <div class="qualification_container container">
+                    <div class="qualification_tabs">
+                        <div class="qualification_button button--flex qualification_active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification_icon"></i>
+                            Education
+                        </div>
+                        <div class="qualification_button button--flex" data-target='#courses'>
+                            <i class="uil uil-briefcase-alt qualification_icon"></i>
+                            Courses
+                        </div>
+                    </div>
+                    <div class="qualifications_sections">
+                        <!--==================== Qualification content 1 ====================-->
+                        <div class="qualification_content qualitication_active" data-content id="education">
+                             <!--==================== Q1 ====================-->
+                            <div class="qualification_data">
+                                    <div>
+                                        <h3 class="qualification_title">Ingenieria en tecnologias computacionales</h3>
+                                        <span class="qualification_subtitle">México - Tecnológico de Monterrey ITESM</span>
+                                        <div class="qualification_calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2018 - 2022
+                                        </div>
+                                </div>
+                                
+                                <div>
+                                    <span class="qualification_rounder"></span>
+                                    <span class="qualification_line"><span>
+                                </div>
+                            </div>
+                            <!--==================== Q2 ====================-->
+                            <div class="qualification_data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification_rounder"></span>
 
+                                </div>
+                                <div>
+                                    <h3 class="qualification_title">Ingenieria en tecnologias computacionales</h3>
+                                    <span class="qualification_subtitle">México - Tecnológico de Monterrey ITESM</span>
+                                    <div class="qualification_calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018 - 2022
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                        <!--==================== Qualification content 2 ====================-->
+                        <div class="qualification_content" data-content id ="courses">
+                            <!--==================== Q1 ====================-->
+                           <div class="qualification_data">
+                                   <div>
+                                       <h3 class="qualification_title">Docker</h3>
+                                       <span class="qualification_subtitle">Udemy</span>
+                                       <div class="qualification_calendar">
+                                           <i class="uil uil-calendar-alt"></i>
+                                           2020
+                                       </div>
+                               </div>
+                               
+                               <div>
+                                   <span class="qualification_rounder"></span>
+                                   <span class="qualification_line"><span>
+                               </div>
+                           </div>
+                           <!--==================== Q2 ====================-->
+                           <div class="qualification_data">
+                               <div></div>
+                               <div>
+                                   <span class="qualification_rounder"></span>
 
+                               </div>
+                               <div>
+                                   <h3 class="qualification_title">MongoDB</h3>
+                                   <span class="qualification_subtitle">Mongo University</span>
+                                   <div class="qualification_calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2021
+                                   </div>
+                               </div>
+                               
+                               
+                           </div>
+                       </div>
+                    </div>
             </section>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
-
-            </section>
-
+            
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section_title"> Portfolio</h2>
+                <span class="section_subtitle">Most Recent Work</span>
+                <div class="portfolio_container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== P1 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src ="assets/img/img1.PNG" alt="" class="portfolio_img">
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title"> Fullstack MERN Application</h3>
+                                <p class="portfolio_description"> Fullstack mern socialmedia application.</p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== P2 ====================-->
+                        <div class="portfolio_content grid swiper-slide">
+                            <img src ="assets/img/img1.PNG" alt="" class="portfolio_img">
+                            <div class="portfolio_data">
+                                <h3 class="portfolio_title"> Fullstack MERN Application</h3>
+                                <p class="portfolio_description"> Fullstack mern socialmedia application.</p>
+                                <a href="#" class="button button--flex button--small portfolio_button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
 
-            </section>
-
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
-
-
-            </section>
-
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
                 
 
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
-
+                <h2 class="section_title"> Contact Me</h2>
+                <span class="section_subtitle">Get in touch</span>
+                <div class="contact_container container grid">
+                    <div>
+                        <div class="contact_information">
+                            <i class="uil uil-phone contact_icon "></i>
+                            <div>
+                                <h3 class="contact_title">Call Me</h3>
+                                <span class="contact_subtitle">55 5555 5555</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-envelope contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">tenapatricio@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact_information">
+                            <i class="uil uil-map-marker contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Location</h3>
+                                <span class="contact_subtitle">Mexico City</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact_form grid">
+                        <div class="contact_inputs grid">
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Name</label>
+                                <input type="text" class="contact_input">
+                            </div>
+                            <div class="contact_content">
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" class="contact_input">
+                            </div>
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Project</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                        </div>
+                        <div>
+                            <a href="" class="button button--flex"> Send</a>
+                        </div>
+                    </form>
+                        
+                </div>
 
             </section>
         </main>
@@ -348,7 +500,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
